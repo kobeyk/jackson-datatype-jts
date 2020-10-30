@@ -2,10 +2,7 @@ package com.bedatadriven.jackson.datatype.jts.parsers;
 
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.vividsolutions.jts.geom.Coordinate;
-import com.vividsolutions.jts.geom.GeometryFactory;
-import com.vividsolutions.jts.geom.Point;
-
+import org.locationtech.jts.geom.*;
 import static com.bedatadriven.jackson.datatype.jts.GeoJson.COORDINATES;
 
 /**
